@@ -1,0 +1,35 @@
+.learner{
+    width: 90%;
+    height: 45vh;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    row-gap: 10px;
+    align-content: space-between;
+    background-color: #e0e2e2;
+}
+
+.name,.bio,.score-container {
+    width: 45%;
+}
+.name {
+    text-align: left;
+    padding-left: 3%;
+    height: 10%;
+}
+.bio{
+    padding-left: 2%;
+    text-align: justify;
+}
+.score-container{
+    background-color: #f7f8f8;
+    height: 90%;
+    border-radius:15px 0 0 15px ;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    row-gap: 5px;
+    padding-top: 15px;
+}

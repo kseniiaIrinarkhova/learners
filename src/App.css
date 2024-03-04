@@ -5,3 +5,12 @@
   text-align: center;
 }
 
+.learner-container{
+  max-width: 900px;
+  min-width: 400px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  row-gap: 10px;
+}

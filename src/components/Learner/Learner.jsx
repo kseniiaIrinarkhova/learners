@@ -1,4 +1,5 @@
 import Score from "../Score/Score";
+import './Learner.css'
 
 export default function Learner({learner}){
 

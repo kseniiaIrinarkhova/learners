@@ -1,0 +1,22 @@
+.score-card{
+    width: 80%;
+    border: 2px #949393 solid;
+    border-radius: 15px 0 0 15px;
+    border-right: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(148, 147, 147, 1) 0%, rgba(224, 226, 226, 1) 7%, rgba(224, 226, 226, 1) 49%, rgba(255, 255, 255, 1) 100%);
+}
+
+.date{
+    width: 45%;
+}
+
+.score{
+    width: 45%;
+    text-align: left;
+    color: brown;
+    
+}
