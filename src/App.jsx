@@ -1,10 +1,13 @@
 import './App.css'
+import { useState } from 'react';
+import learners from './data/learners.data.mjs';
 
 function App() {
+  const [learnersData, setLearnersData] = useState({learners: learners});
 
   return (
     <>
-      <h1>Main page.</h1>
+      <h1>{learnersData.learners[0].name}</h1>
     </>
   )
 }
